@@ -40,6 +40,15 @@ export default function Home() {
               Quiz Yourself with Flashcards
             </Button>
           </Link>
+
+          <Link
+            to="/dashboard?tab=profile"
+            className="text-xs sm:text-sm text-teal-500 font-bold"
+          >
+            <Button outline gradientDuoTone="purpleToBlue" className="text-lg">
+              Admin Profile & Dashboard
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -70,3 +79,4 @@ export default function Home() {
     </div>
   );
 }
+
